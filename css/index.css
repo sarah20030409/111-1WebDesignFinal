@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 100%;
+}
+
+/* banner */
+.banner img{
+    width: 100%;
+}
+
+/* ★section_1★ */
+.section_1{
+    display: flex;
+    justify-content: center;
+    padding: 100px 165px;
+}
+
+.section_1 .content{
+    display: flex;
+    justify-content: center;
+}
+
+/* 小標題樣式 */
+.title h2{
+    font-weight: 900;
+    font-size: 24px;
+    color:#4D3729;
+}
+
+/* 小橫線樣式 */
+.line_{
+    background-color: #CDA581;
+    height: 3px;
+    width: 95px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.word p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D3729;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+/* 按鈕樣式 */
+.BTN{
+    margin: 40px 0px;
+}
+
+.BTN a {
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #4D3729;
+    border-radius: 100px;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0px 4px 4px rgba(23, 10, 2, 0.2);
+}
+.BTN a:hover{
+    transition: 0.3s;
+    background-color:#E5B990;
+    color:#4D3729;
+}
+
+.right img{
+    border-radius:10px;
+    width: 545px;
+    margin-left: 114px;
+}
+
+/* ★section_2★ */
+.section_2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.section_2 img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* ★section_3★ */
+.section_3{
+    display: flex;
+    justify-content: center;
+}
+
+.section_3 .title , .section_3 .line{
+    display: flex;
+    justify-content: center;
+}
+
+.section_3 .line{
+    padding-bottom: 30px;
+}
+
+.section_3 ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section_3 li img{
+    border-radius: 10px;
+    margin: 20px 24px;
+}
+
+.section_3 .BTN{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}

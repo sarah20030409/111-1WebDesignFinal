@@ -1,0 +1,48 @@
+/* 平板 */
+@media screen  and (min-width:760px) and (max-width:1100px) {
+    .section_3 .content img{
+        width: 350px;
+    }
+}
+
+/* 手機 */
+@media screen and (max-width:759px) {
+
+    /* header & footer */
+    header .content{
+        height: 80px;
+    }
+    header img{
+        width: 50px;
+    }
+    footer .F_right{
+        height:130px;
+    }
+    footer .content{
+        display: block;
+    }
+    .copyright{
+        margin-top: 60px;
+    }
+
+
+    /* 第三段樣式改改 */
+    .section_3{
+        display: flex;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+    .section_3 .content{
+        display: block;
+    }
+     .section_3 .content img{
+        width: 350px;
+    }
+    .section_3 .IMG{
+        display: flex;
+        justify-content: center;
+    }
+    .section_3 .left_info{
+        padding-bottom: 90px;
+    }
+}
