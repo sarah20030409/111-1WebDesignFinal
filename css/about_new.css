@@ -1,0 +1,101 @@
+
+/* 全預設定 */
+html,body{
+    font-family: Arial;
+    height: 100%;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    letter-spacing: 1px;
+    
+    color: #4D3729;
+    padding-bottom: 13px;
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    
+    letter-spacing: 2px;
+    
+    color: #4D3729;
+
+    padding-bottom: 15px;
+}
+
+.line{
+    width: 66px;
+    height: 3px;
+
+    background-color:  #CDA581;
+
+    margin-bottom: 15px;
+}
+
+.wrap{
+    width: 75%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.empty{
+    height: 30%;
+}
+
+.about_empty{
+    width: 10%;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    border-radius: 0px;
+} 
+
+.banner{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about_1,.about_2,.about_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+#rwd{
+    display: none;
+}
+
+.text{
+    width: 50%;
+}
+
+.img{
+    width: 45%;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* #img1,#img2{
+    width:471px;
+    height: 300px;
+}
+
+#img3{
+    width: 450px;
+    height: 350px;
+} */

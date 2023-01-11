@@ -1,0 +1,92 @@
+/* 平板 */
+@media screen and ( min-width:560px) and (max-width:760px) 
+{
+    .wrap{
+        width: 90%;
+    }
+
+    .empty{
+        height: 20%;
+    }
+
+    .about_1,.about_2{ 
+        margin-bottom: 50px;
+    }   
+
+    .about_3{
+        margin-bottom: 0;
+    }
+
+
+
+}
+
+
+
+/* 手機 */
+@media screen and (max-width:559px) 
+{   
+    .wrap{
+        width: 85%;
+    }
+
+    .empty{
+        height: 15%;
+    }
+
+    .about_empty{
+        height: 20px;
+    }
+
+    .about_1{
+        display:block;
+        margin-bottom: 50px;
+    }  
+    
+    .about_3{
+        display:block;
+        margin-bottom: 0;
+    }
+
+    .about_2{
+        display: none;
+    }
+    #rwd{
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+}    
+@media screen and (max-width:560px) {
+
+    /* header & footer */
+    header .content{
+        height: 80px;
+    }
+    header img{
+        width: 50px;
+    }
+    footer .F_right{
+        height:130px;
+    }
+    footer .content{
+        display: block;
+    }
+    .copyright{
+        margin-top: 60px;
+    }
+}
